@@ -1,0 +1,102 @@
+
+#root{
+  height: 100%;
+}
+.ant-layout{
+  height: 100%;
+}
+.loginTable{
+  width: 500px;
+	height: 270px;
+	background: rgb(230, 229, 229);
+	border: 1px solid #ccc;
+	position: absolute;
+	left: 50%;top: 50%;
+	margin-left: -250px;
+	margin-top: -250px;
+  padding: 20px;
+}
+.welcomTable{
+  width: 500px;
+	height: 270px;
+	background: #eee;
+	border: 1px solid #ccc;
+	position: absolute;
+	left: 50%;top: 50%;
+	margin-left: -250px;
+	margin-top: -250px;
+  padding: 20px;
+}
+#components-layout-demo-top-side-2 .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+.header{
+  color: white;
+  display:flex ;
+  align-items: center;
+  justify-content: space-between;
+}
+.header div{
+  color: white;
+  font-weight: bolder;
+}
+span:hover{
+  cursor: pointer;
+}
+p:hover{
+  cursor: pointer;
+  background-color: #ccc;
+}
+p  {
+  font-weight:500  !important;
+  text-align: center !important;
+}
+.site-layout-background div{
+  font-weight:500  !important;
+  text-align: center !important;
+}
+.ant-layout-sider {
+  height: 100%;
+}
+.adminName{
+  margin-right: 20px;
+}
+.adminAvatar:hover{
+  cursor: pointer;
+}
+.pageFooter{
+  position: fixed;/*固定位置*/
+	bottom:10px;
+  right: 40px;
+	z-index:9999;/*设置优先级显示，保证不会被覆盖*/
+}
+#errorPage{
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#errorBack{
+  position: fixed;
+  bottom: 100px;
+  left:100px;
+}
+#welcomtext{
+  text-shadow: -1px 0 white, 0 1px white, 2px 0 black, 0 -2px black;
+}
+#welcomtext:hover{
+  text-shadow: -1px 0 white, 0 1px white, 3px 0 black, 0 -3px black;
+}
